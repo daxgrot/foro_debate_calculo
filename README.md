@@ -11,4 +11,6 @@ pip install requirements.txt
 
 Se recomienda crear un entorno virtual para que el proyecto maneje de manera aislada y controlada todas sus dependencias.
 
+Para visualizar la grafica, ejecutar el `archivo funcion_calcular_danio.py`
+
 
