@@ -28,6 +28,10 @@ def f(x):
 # y la funcion que se aplica sobre dicha variable
 
 plt.plot(x, f(x))
+plt.plot(73,f(73),"o",color="red")
+plt.annotate('lvl 73',(73,f(73)))
+plt.plot(35,f(35),"o",color="red")
+plt.annotate('lvl 35',(35,f(35)))
 plt.xlabel('Nivel')
 plt.ylabel('Daños realizado')
 plt.grid()
